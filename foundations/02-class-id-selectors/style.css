@@ -2,7 +2,7 @@
 
 .odd{
     background-color: rgb(255, 0, 255);
-    font-family: Verdana, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'sans-serif';
+    font-family: Verdana, sans-serif;
     }
     .odd.but-cooler{
         font-size: 24px;
