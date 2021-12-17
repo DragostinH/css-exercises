@@ -7,9 +7,21 @@ img {
   height: 100px;
 }
 
-.title {
+h1 {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin: 32px;
+}
+
+figure{
+  display: flex;
+  align-items: center;
+}
+
+figure figure{
+  flex-direction: column;
+  text-align: center;
 }
 
 /* do not edit this footer */
@@ -23,4 +35,11 @@ img {
   align-items: center;;
   justify-content: center;
   background: #eee;
+}
+
+
+@media (max-width: 790px){
+  figure{
+    flex-direction: column;
+  }
 }
