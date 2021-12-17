@@ -57,10 +57,32 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  justify-content: sp;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+
+/* solution */
+.modal{
+  display: flex;
+  padding: 1em;
+  /* flex-direction: column; */
+}
+
+figure{
+  margin: 0 1em 0 0em;
+}
+
+h3{
+  margin: 0 0 12px 0;
+}
+
+.continue,
+.cancel{
+  margin: 12px 0 0 0;
 }
