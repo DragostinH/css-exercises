@@ -25,3 +25,70 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+/* Solution */
+
+
+.left-links,
+.right-links{
+  list-style: none;
+  padding: 0;
+}
+
+ul{
+  display: flex;
+}
+
+.bottom-nav{
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-nav{
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content,
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-nav .left-links,
+.bottom-nav .right-links,
+.top-nav .left-links,
+.top-nav .right-links{
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+}
+
+li{
+  margin: 1em;
+}
+
+.bottom-nav{
+  background-color: #eee;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+  font-weight: 500;
+}
+
+button{
+  padding: 0.5em 1em;
+}
